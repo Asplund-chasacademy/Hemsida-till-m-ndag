@@ -1,7 +1,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    padding: 20px;
+    padding: 20px 20px 20px 20px;
 }
 
 header {
@@ -9,10 +9,6 @@ header {
     color: rgba(255, 255, 255, 0.938);
     padding: 15px 0;
     text-align: center;
-}
-
-nav ul {
-    list-style-type: none;
 }
 
 nav ul li {
@@ -26,23 +22,26 @@ nav ul li a {
 }
 
 main {
-    margin-top: 20px;
+    margin-top: 40px;
+    padding-bottom: px;
 }
 
 section {
-    margin-bottom: 20px;
+    margin-bottom: 90px;
 }
 
-/* Enkelsidig layout för mobiler (default) */
-main {
-    display: block;
+
+footer {
+    text-align: center;
+    padding: 0px 20px;
+    background-color: lightgray;
 }
 
-/* Brytpunkt 1: Mindre skärmar (tablets) */
+
 @media (min-width: 600px) {
     body {
         padding: 30px;
-        font-size: 1.1rem;
+        font-size: 16px;
     }
 
     main {
@@ -56,27 +55,18 @@ main {
     }
 }
 
-/* Brytpunkt 2: Större skärmar (laptops) */
 @media (min-width: 900px) {
     body {
         padding: 40px;
-        font-size: 1.2rem;
-    }
-
-    main {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    nav ul li {
-        margin-right: 30px;
+        font-size: 16px;
     }
 }
 
-/* Brytpunkt 3: Extra stora skärmar (desktops) */
+
 @media (min-width: 1200px) {
     body {
         padding: 50px;
-        font-size: 1.3rem;
+        font-size: 16px;
     }
 
     header {
@@ -85,12 +75,8 @@ main {
 
     main {
         grid-template-columns: repeat(3, 1fr);
-        gap: 40px;
+        gap: 75px;
     }
 
-    footer {
-        text-align: center;
-        padding: 20px 0;
-        background-color: #f1f1f1;
-    }
+   
 }
