@@ -10,10 +10,7 @@ header {
     padding: 15px 0;
     text-align: center;
     border-radius: 41px;
-    background: linear-gradient(to right, rgb(0, 0, 255) ,rgb(148, 50, 50));
-}
-h1 {
-    background: linear-gradient(to left, rgb(0, 0, 255) ,rgb(148, 50, 50));
+    background: linear-gradient(to right, #f7c08a, #e76f51)
 }
 
 nav ul li {
@@ -32,18 +29,13 @@ nav ul li a {
 
 main {
     margin-top: 40px;
-    padding-bottom: px;
-}
 
-section {
-    margin-bottom: 90px;
 }
-
 
 footer {
     text-align: center;
     padding: 0px 20px;
-    background-color:#7a5757;
+    background: linear-gradient(to right, #f7c08a, #e76f51);
     color: rgb(233, 233, 233);
 }
 
