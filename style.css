@@ -21,7 +21,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-size:large;
     
@@ -36,7 +36,7 @@ footer {
     text-align: center;
     padding: 0px 20px;
     background: linear-gradient(to right, #f7c08a, #e76f51);
-    color: rgb(233, 233, 233);
+    color: rgb(255, 255, 255);
 }
 
 
